@@ -12,4 +12,4 @@ def emotion_detector(text_to_analyse):
     emotion_sort = dict(sorted(emotion.items()))
     emotion_max = max(emotion, key = emotion.get)
     emotion_sort['dominant_emotion'] = emotion_max
-    return emotion_max
+    return emotion_sort
